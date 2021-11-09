@@ -19,7 +19,7 @@ def prompt_to_hash
 
 end
 
-def hash_to_array(hash)
+def hash_to_array(hash = {})
     # print out array of keys and array of values
     puts "Your fav athletes are: #{hash.keys.inspect}"
     puts "and they are from: #{hash.values.inspect}"

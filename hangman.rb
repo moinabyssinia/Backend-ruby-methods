@@ -17,3 +17,7 @@ def hangman(word, guessed_letter)
     end 
     puts final_string
 end
+
+
+hangman("bob", ["b"])
+hangman("alphabet", ["a", "h"])
